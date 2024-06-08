@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontiva - Amazing Fonts for Graphic Designers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+        }
+        header {
+            background-color: #1675b4;
+            color: white;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            width: 90%;
+            margin: 20px auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 500px;
+            margin: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+            padding: 20px;
+        }
+        .card img {
+            max-width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+        }
+        .card h2 {
+            font-size: 1.5em;
+            margin: 0 0 10px;
+        }
+        .card button {
+            background-color: #1675b4;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .card button:hover {
+            background-color: #1675b4;
+        }
+        .search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.search-container input[type="text"] {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 30px 0 0 30px;
+    outline: none;
+    transition: border-color 0.3s;
+    width: 50%;
+}
+
+.search-container input[type="text"]:focus {
+    border-color: #555;
+}
+
+.search-container button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 0 30px 30px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+}
+
+.search-container button:hover {
+    background-color: #555;
+}
+
+.search-container button svg {
+    fill: white;
+}
+
+        footer {
+            background-color: #1675b4;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            height: 30px;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            .card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fontiva</h1>
+        <p>Amazing Fonts for Graphic Designers</p>
+    </header>
+    <div class="search-container">
+    <input type="text" placeholder="Search fonts..." name="search">
+    <button type="submit">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M10 2a8 8 0 105.293 14.293l4.736 4.736a1 1 0 101.415-1.415l-4.736-4.736A8 8 0 0010 2zm0 2a6 6 0 110 12 6 6 0 010-12z"></path></svg>
+    </button>
+    </div>
+    <div class="container">
+        <div class="card">
+            <img src="1.png" alt="Font 1">
+            <h2>Font Name 1</h2>
+            <button>Download</button>
+        </div>
+        <div class="card">
+            <img src="font-image2.jpg" alt="Font 2">
+            <h2>Font Name 2</h2>
+            <button>Download</button>
+        </div>
+        <div class="card">
+            <img src="font-image2.jpg" alt="Font 2">
+            <h2>Font Name 2</h2>
+            <button>Download</button>
+        </div>
+    </div>
+    <footer>
+        <p>privacy&policy <a href="index1.html" style="color: purple;">privacy & policy</a></p>
+    </footer>
+</body>
+</html>
